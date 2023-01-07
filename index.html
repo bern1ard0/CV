@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernard Wongibe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel = "icon" href="images/favi.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="images/BWongibs.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class = "header-text">
+            <h1>Hi!<br><br> <br>I'm <span style="font-family: cursive;">Bernard</span> Wongibe<br>and I'm a Programmer</h1>
+        </div>
+    </div>
+</div>
+<!-----------------about--------------->
+<div id="about">
+    <div class = "container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="sub-title" style="font-family: cursive;"><span style="color: #ff004f;">About</span> Me</h1>
+                <p>I am a sophomore at Williams College and will major in Computer Science and Economics. I have major interest in AI (Artificial Intelligence). It simulateanously 
+                    <br>fascniates and scares me. It is impressive to see that a machine is capable of learning human skills at an "impossible" rate. Millions of years of human
+                    <br>learning which has been mainly governed by trial and error, being run through a machine learning program with the result being a machine that can 
+                    <br>operate at a rate exceptionally faster and more efficient than the human being only after hours (usually about 1 to 100) of training.
+                    <br>In short, every knowledge acquired by humans throughout human history, being mastered by machines in matters of hours.
+                    <br>This is Insane!<br></p>
+                    <p>
+                        <br>As far as hobbies are concerned, I play football(⚽). I also enjoy reading in my spare time and playing the piano to soothe my soul. 
+                        <br>Though I love listening to Afrobeats, pop, and Amapiano genres of music, I tend to find every genre of music quite enjoyable. 
+                    </p>
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <table>
+                        <tr>
+                            <th>Technical Skills</th>
+                            <th style="padding-right: 100px;">Soft Skills</th>
+                            <th style="padding-right: 300px;">Languages</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><span>Python</span><br>⭐⭐⭐⭐</li>
+                                    <li><span>Java</span><br>⭐⭐⭐⭐</li>
+                                    <li><span>HTML and CSS</span><br>⭐⭐⭐</li>
+                                    <li><span>JavaScript</span><br>⭐⭐⭐</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><span>Communication</span><br>⭐⭐⭐</li>
+                                    <li><span>Professionalism</span><br>⭐⭐⭐</li>
+                                    <li><span>Leadership</span><br>⭐⭐⭐</li>
+                                    <li><span>TeamWork</span><br>⭐⭐⭐⭐</li>
+                                </ul>
+                            </td>
+                            <td>  
+                                <ul>
+                                    <li><span>French</span><br>⭐⭐⭐⭐⭐</li>
+                                    <li><span>Spanish</span><br>⭐⭐</li>
+                                    <li><span>Pidgin English</span><br>⭐⭐⭐⭐</li>
+                                    <li><span>Tribal Dialect (Lamnso)</span><br>⭐⭐⭐⭐⭐</li>    
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span><a href = https://oit.williams.edu>➣Office of Information and Technology(OIT) Support, Williams College</a><br><span style="font-size: small;">September 2021 - Present</span></span> 
+                            <br>- Assist students, faculty and staff with printing, software updates, wifi connectivity, software installation and more.
+                            <br>- Occasionaly provide similar services to Williamstown residents
+                        </li>
+                        <li><span><a href = http://misongi.org>➣ Intern, MISONGI, Cameroon.</a><br><span style="font-size: small;">June 2022 - August 2022 </span>
+                        </span><br>- Taught Math and English to 18 students to help them cross the 1400-threshold at the SAT
+                                <br>- Coordinated activities aimed at cultivating teamwork and leadership among scholars.
+                                <br>- Brought my experience in the US back to scholars in Cameroon and showed them how it could be helpful in the college application journey.
+                        </li>
+                        <li><span style="font-style: italic;">➣ Intern, Thierry AUTO, Cameroon.<br><span style="font-size: small;">June 2020 - August 2020</span> 
+                            </span><br>- Repaired vehicles with slight malfunctioning like flat tires, dim headlights, and damaged 
+                            battery cells.
+                        </li>
+                        <li><span style="font-style: italic;">➣ Founder and Tutor, FRENCH FOR THE INTERNALLY DISPLACED, Cameroon 
+                            <br><span style="font-size: small;">September 2019 - May 2020 </span></span><br>- Worked with 13 English-speaking internally displaced refugees and helped them integrate into the French￾speaking community by teaching them French. 
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><a href = https://www.williams.edu>➣Williams College, Williamstown, MA </a><br><span style="font-size: small;">Expected Graduation - 2025</span></span> 
+                            <br>- Bachelor of Arts, Computer Science and Programming and Economics.
+                        </li>
+                        <li><span><a href = https://httpgbhs-bafoussam.com/index.html>➣ Government Bilingual High School, Bafoussam, CAMEROON, 
+                            </a><br><span style="font-size: small;">July 2021</span>
+                        </span><br>- Honor Roll, Advanced Levels Certificate in Sciences 22/25 points.
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------Portfolio---------------------->
+<div id = "portfolio">
+    <div class="container" style="margin-left: 30px; margin-right: 30px;">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img style="height: 300px;" src="images/word Gen.jpg" alt="">
+                <div class="layer">
+                    <h3>Word Generator</h3>
+                    <p>Extensive Use of hash tables to randomly generate a similar write up as text data input.</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 300px;" src="images/quiltShrub.jpeg" alt="">
+                <div class="layer">
+                    <h3>Turtle Graphics</h3>
+                    <p>Makes extensive use of recursion to generate beautiful but complex shapes like trees with countless branches and quilt square patterns</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 300px;" src="images/ExamSchedule.jpeg" alt="">
+                <div class="layer">
+                    <h3>Exam Scheduler</h3>
+                    <p>Makes extensive use of tries to exactly map out students and their appropriate exam time slots for each course. Also shows names of student taking each course.</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img style="height: 300px;" src="images/NimGame.png" alt="">
+                <div class="layer">
+                    <h3>Nim Game</h3>
+                    <p>Introduces the concept of Object Oriented Programming. Clearly provides design structure for every (most) two player games.</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/bern1ard0?tab=repositories" class="btn">See More  <i class="fa fa-github-square" title="Github"></i></a>
+    </div>
+</div>
+<!-----Contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-send"></i>bvw1@williams.edu</p>
+                <p><i class="fa fa-phone-square"></i>+14133580544</p>
+                <div class= "social-icons">
+                    <a href="https://www.instagram.com/bern1ard0/"><i class="fa fa-instagram" title="Instagram"></i></a>
+                    <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADndWtcBwPKZJcElA5ctUrzGIq4UBhUXfqo&keywords=bernard%20wongibe&origin=RICH_QUERY_SUGGESTION&position=0&searchId=5f652155-9030-4f21-827c-493265b0e690&sid=YZ8"><i class="fa fa-linkedin-square" title="LinkedIn"></i></a>
+                    <a href="https://github.com/bern1ard0?tab=repositories"><i class="fa fa-github-square" title="Github"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa fa-twitter" title="twitter"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0L5_zTlgYbesDGeVr_ttuSF_DopQOpBZXE6b73JD7EmOAu3TOh95PihZ39JIlJ2V-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
